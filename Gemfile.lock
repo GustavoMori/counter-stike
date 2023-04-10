@@ -138,6 +138,7 @@ GEM
       ast (~> 2.4.1)
     patience_diff (1.2.0)
       optimist (~> 3.0)
+    pg (1.4.6)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -226,7 +227,6 @@ GEM
       rubocop (~> 1.33)
       rubocop-capybara (~> 2.17)
     ruby-progressbar (1.13.0)
-    sqlite3 (1.6.2-x86_64-linux)
     super_diff (0.10.0)
       attr_extras (>= 6.2.4)
       diff-lcs
@@ -255,6 +255,7 @@ DEPENDENCIES
   faker (~> 3.1)
   jsonapi-serializer (~> 2.2)
   lograge (~> 0.12.0)
+  pg
   pry
   pry-nav
   puma (~> 5.0)
@@ -264,7 +265,6 @@ DEPENDENCIES
   rubocop-performance (~> 1.16)
   rubocop-rails (~> 2.18)
   rubocop-rspec (~> 2.19)
-  sqlite3 (~> 1.4)
   super_diff
   tzinfo-data
   webmock

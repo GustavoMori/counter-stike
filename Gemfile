@@ -10,8 +10,8 @@ gem 'jsonapi-serializer', '~> 2.2'
 gem 'lograge', '~> 0.12.0'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
-gem 'sqlite3', '~> 1.4'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'pg'
 
 group :development, :test do
   gem 'debug'
